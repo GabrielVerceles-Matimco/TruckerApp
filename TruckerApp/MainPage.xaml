@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Shipment"
+             x:Class="TruckerApp.MainPage">
+
+    <VerticalStackLayout Padding="20">
+        <VerticalStackLayout Padding= "40,60,40,40">
+            <SearchBar BackgroundColor="#555555" 
+                       Placeholder="Search" 
+                       PlaceholderColor="White" 
+                       FontSize="18" 
+                       FontAttributes="Bold" >
+            
+        </SearchBar>
+        </VerticalStackLayout>
+        <VerticalStackLayout BackgroundColor="#555555"
+                             HeightRequest="80"
+                             HorizontalOptions="FillAndExpand">
+            
+            <HorizontalStackLayout Grid.Row="0" Spacing="25">
+                <Label Text="00018001"
+                       TextColor="#FFFFFF"
+                       FontSize="30"
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Start"
+                       Margin="12"/>
+                <Button BackgroundColor="#F4B806" Text="2" FontAttributes="Bold" HorizontalOptions="Center" 
+                        Margin="0,2,0,2" CornerRadius="30" HeightRequest="60" WidthRequest="60" />
+                <Button BackgroundColor="#F4B806" Text="4" FontAttributes="Bold" HorizontalOptions="Center" 
+                        Margin="0,2,0,2" CornerRadius="30" HeightRequest="60" WidthRequest="60"/>
+            
+            </HorizontalStackLayout>
+            
+
+        </VerticalStackLayout>
+        
+        
+        
+    </VerticalStackLayout>
+    
+
+
+</ContentPage>
